@@ -60,6 +60,18 @@ Q7 What is Object.freeze?
 Q 1 Write a function that generates a random number between two ranges, -100 to 0 and
 800 - 900.
 
+ function randomNumber(min, max){
+
+return Math.random(Math.random()*(max-min+1) + min)
+}
+
+const Num1=randomNumber(-100, 0);
+
+const Num1=randomNumber(800, 900);
+
+console.log(Num1);
+
+console.log(Num2);
 
 
 
